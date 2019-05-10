@@ -21,6 +21,18 @@ html {
 	width: 100%;
 }
 
+#write {
+margin: 0 0 5px;
+padding: 5px;
+width: 99%;
+height: 200px;
+font: 1em/1.5 Verdana, Sans-Serif;
+background: #fff;
+border: 1px solid #f9f9f9;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
 .key {
 	font-family: sans-serif;
 	background-color: #aaa;
@@ -35,6 +47,7 @@ html {
 	flex: 1;
 	height: auto;
 }
+
 
 .key:active {
     background-color: #eaeaea;
