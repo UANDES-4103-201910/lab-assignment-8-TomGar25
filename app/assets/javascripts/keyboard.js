@@ -6,8 +6,7 @@ $(document).ready(function(){
 
 	$('#kcontainer .key').click(function(){
 		var write = $('#write');
-		var key = $(this),
-			character = key.html(); 
+		var key = $(this), character = key.html(); 
 		
 		// Delete
 		if (key.hasClass('key key-wide')) {
@@ -23,7 +22,16 @@ $(document).ready(function(){
 		
 		// Add the character
 		
-		write.html(write.html() + character+'hola');
+		write.html(write.html() + character+'no logre que escribiera en linea pero borra:)');
 		
 	});
+
+	$('#off').click(function(){
+		$('#Area').hide();
+
+	})
+	$('#on').click(function(){
+		$('#Area').show();
+
+	})
 });
